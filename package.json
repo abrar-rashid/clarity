@@ -1,0 +1,21 @@
+{
+  "name": "group-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd back-end && npm install && node server.js",
+    "heroku-postbuild": "cd front-end && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.doc.ic.ac.uk:drp47/group-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "pg": "^8.11.0",
+    "recharts": "^2.6.2"
+  }
+}
